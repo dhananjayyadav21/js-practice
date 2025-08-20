@@ -1,0 +1,59 @@
+<!-- vscode-tailwindcss-enables -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="h-screen">
+    <main class="bg-gray-950 text-white min-h-full w-full flex flex-col flex justify-center items-center gap-10 py-20">
+        <h4 class="text-2xl font-bold">Here I lern Dom</h4>
+        <div class="bg-gray-900 min-w-100 min-h-20 p-4 rounded rounded-lg text-center">
+            <p class="flex justify-center items-center w-full h-full">Click me</p>
+        </div>
+        <div
+            class="bg-gray-900 min-w-100 min-h-20 p-4 rounded rounder-lg text-center flex flex-col justify-center gap-5">
+            <ul>
+                <li>Home</li>
+                <li>Contact</li>
+                <li>About</li>
+                <li>Support</li>
+            </ul>
+            <button id="li-btn"
+                class="text-sm border border-1 border-gray-200 rounded-lg p-2 hover:bg-gray-800 transition-all delay-100 duration-400 cursor-pointer">Add
+                New
+                li</button>
+        </div>
+
+        <div
+            class="bg-gray-900 min-w-100 min-h-20 p-4 rounded rounder-lg text-center flex flex-col justify-center gap-5">
+            <input class="border-1 rounded-lg p-1" type=" text" placeholder="Enter somthing...">
+            <div id="show-data" class="border-1 rounded-lg p-1 min-h-10 text-start text-gray-400">Nothing</div>
+        </div>
+
+        <div
+            class="bg-gray-900 min-w-100 min-h-20 p-4 rounded rounder-lg text-center flex flex-col justify-center gap-5">
+            <div class="h-20 w-20 rounded-[50%] border-5 overflow-hidden">
+                <img class="w-full h-full  object-cover"
+                    src="https://images.unsplash.com/photo-1751225750479-43ad27b94fa0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyfHx8ZW58MHx8fHx8"
+                    alt="img">
+            </div>
+            <button id="img-btn"
+                class="text-sm border border-1 border-gray-200 rounded-lg p-2 hover:bg-gray-800 transition-all delay-100 duration-400 cursor-pointer">Change
+                Me</button>
+
+        </div>
+
+        <div class="bg-gray-900 min-w-100 min-h-20 p-4 rounded rounded-lg text-center">
+            <p id="bg-change" class="flex justify-center items-center w-full h-full p-2 border-2">Change my background
+            </p>
+        </div>
+    </main>
+    <script src="dom.js"></script>
+</body>
+
+</html>
