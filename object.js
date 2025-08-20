@@ -48,18 +48,6 @@ console.log(user.address.city);
 
 
 
-// 👉 Local Storage / Session Storage
-
-// Ek program likho jo input box ka data localStorage me save kare aur refresh ke baad bhi dikhaye.
-
-// Ek button banao jo sessionStorage me username store kare aur doosra button jo usse show kare.
-
-// Ek program banao jo user ka theme preference (dark/light) localStorage me save kare.
-
-// Ek form submit karne ke baad data localStorage me store karo.
-
-// Ek button banao jo localStorage clear kare.
-
 // 👉 Cookies
 
 // Ek cookie set karo username=Rahul jo 2 din tak valid ho.

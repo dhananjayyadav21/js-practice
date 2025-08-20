@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeout And Interval</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+
+<body class="h-screen">
+    <main class="min-h-full w-full p-6 bg-gray-950 flex flex-col justify-center items-center gap-10 text-white">
+        <h1 class="text-2xl font-bold">Here learn timeout and interval</h1>
+
+        <div class="w-100 flex flex-col justify-center gap-5 border-1 p-2 rounded-lg">
+            <button id="hello-btn" class="border-2 p-2 rounded-lg ">Hello btn</button>
+            <div id="hello-print" class="p-4 border-2 rounded-lg w-full">
+            </div>
+        </div>
+
+        <div class="w-100 flex flex-col justify-center gap-5 border-1 p-2 rounded-lg">
+            <button id="countBtn" class="border-2 p-2 rounded-lg ">Count down</button>
+            <div id="countPrint" class="p-4 border-2 rounded-lg w-full">
+            </div>
+        </div>
+
+        <div id="clock" class="w-100 flex justify-center items-center gap-5 p-4 border-2 rounded-lg">
+            <span id="clockStart" class="bg-white rounded-lg p-4"></span>
+            <div class="p-4 border-2 rounded-lg w-full">
+            </div>
+        </div>
+
+        <div id="imgSkider" class="w-100 flex justify-center items-center gap-5 p-4 border-2 rounded-lg">
+            <img id="img" src="https://wallpapercave.com/wp/wc1802079.jpg" alt="img">
+        </div>
+    </main>
+
+    <script src="timeout-interval.js"></script>
+</body>
+
+</html>
