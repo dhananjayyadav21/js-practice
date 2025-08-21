@@ -49,3 +49,18 @@ clearStorage.addEventListener("click", () => {
     localStorage.clear();
     sessionStorage.clear();
 })
+
+
+
+
+// 👉 Cookies
+
+// Ek cookie set karo username=Rahul jo 2 din tak valid ho.
+
+// Ek program banao jo cookie read kare aur alert me show kare.
+
+// Ek form banao jo username ko cookie me store kare.
+
+// Ek button banao jo cookie delete kare.
+
+// Ek program likho jo "Welcome back, [username]" show kare agar cookie already set ho.
