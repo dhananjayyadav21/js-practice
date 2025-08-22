@@ -49,6 +49,41 @@ let bottomLeft = createToster({
 
 // bottomRight("Hye i am 1 ");
 
+setTimeout(() => {
+    bottomLeft("Hye i am 1 ");
+}, 2000);
 
-bottomLeft("Hye i am 1 ");
-bottomLeft("Hye i am 3 ");
+
+setTimeout(() => {
+    bottomLeft("Hye i am 2 ");
+}, 1000);
+
+
+//lexical and dynamic scoping
+let a = 12;
+function A() {
+    console.log("A->", a);
+};
+function B() {
+    A();
+}
+B();
+
+
+
+//this concept how to work in different scop
+console.log(this)
+function func() {
+    console.log(this)
+}
+func();
+let obj = {
+    name: "dhananjay",
+    city: "mumbai",
+    age: function () {
+        console.log(this);
+    }
+}
+obj.age();
+
+
